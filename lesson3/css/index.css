@@ -1,0 +1,21 @@
+h2{
+    color: aqua;
+}
+.my-second-h2{
+    color: rgba(189, 220, 110, 0.63);
+}
+#parent-of-header{
+    background: rgba(255, 255, 0, 0.27);
+}
+.my-beautiful-element h2:nth-child(3){
+    color: darkgreen;
+}
+.green-p{
+    color: green;
+}
+.blue-p{
+    color: blue;
+}
+div p:nth-child(1){
+    color: red;
+}

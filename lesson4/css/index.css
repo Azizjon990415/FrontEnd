@@ -1,0 +1,18 @@
+.square {
+    /*margin: 0 auto;*/
+    background: magenta;
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.rectangle {
+    padding-top: 200px;
+    padding-left: 200px;
+    background: blue;
+    width: 1000px;
+    height: 800px;
+    margin-left: 200px;
+}

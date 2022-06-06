@@ -1,0 +1,22 @@
+.text-before-name {
+    /*display: block;*/
+    /*display: inline;*/
+    display: inline-block;
+    background: aqua;
+}
+
+.name {
+    display: inline-block;
+    background: greenyellow;
+}
+
+.colored-text {
+    /*display: none;*/
+    width: 500px;
+    height: 100px;
+    display: block;
+    color: aquamarine;
+    overflow: hidden;
+    /*overflow-y: scroll;*/
+    /*overflow-x: hidden;*/
+}

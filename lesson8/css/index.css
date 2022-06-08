@@ -1,0 +1,58 @@
+.ball-1{
+    position: absolute;
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    background: red;
+    z-index: 2;
+    bottom: 10px;
+    left: 10px;
+}
+.ball-2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: green;
+    margin-left: 60px;
+    z-index: 1;
+    right: 10px;
+    top: 10px;
+}
+.ball-3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: blue;
+   top:10px;
+    left: 10px;
+}
+.ball-4{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: blue;
+   bottom:10px;
+    right: 10px;
+
+}
+.ball-5{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: blue;
+   bottom:200px;
+    right: 200px;
+
+}
+.square{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background: aqua;
+    margin-left: 300px;
+    z-index: 4;
+}

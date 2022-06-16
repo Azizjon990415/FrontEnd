@@ -1,0 +1,68 @@
+.ball {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation-name: walking-ball;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* ff 3.6+ */
+    background: -moz-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+    /* opera 11.10+ */
+    background: -o-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee82ee', endColorstr='#FFFF00', GradientType=0);
+    /* ie 10+ */
+    background: -ms-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+    /* global 94%+ browsers support */
+    background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+}
+.square {
+    position: relative;
+    width: 80%;
+    display: table;
+    margin-left: 10%;
+    margin-top: 8%;
+    height: 15vw;
+}
+
+@keyframes walking-ball {
+    0% {
+        transform: rotate(0deg);
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: 93%;
+        top: 0;
+        transform: rotate(3600deg);
+    }
+    50% {
+        left: 93%;
+        top: 85%;
+        transform: rotate(7200deg);
+    }
+    75% {
+        left: 0;
+        top: 85%;
+        transform: rotate(10800deg);
+    }
+    100% {
+        transform: rotate(14400deg);
+        left: 0;
+        top: 0;
+    }
+}
+/*@keyframes walking-ball {*/
+/*    from{*/
+/*       transform: rotate(0deg);*/
+/*        margin-left: 0;*/
+/*    }*/
+/*    to{*/
+/*        margin-left: 500px;*/
+/*        transform: rotate(3600deg);*/
+/*    }*/
+/*}*/

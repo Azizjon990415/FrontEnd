@@ -1,0 +1,48 @@
+.header-link {
+    background: aqua;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24px;
+    position: relative;
+}
+.header-link-wrapper{
+    display: inline-block;
+}
+.header-link-wrapper:hover .header-link::after{
+    transform: scale(1);
+    bottom: 0;
+}
+
+.header-link::before {
+    content: '';
+}
+
+.header-link::after {
+    content: ' ';
+    position: absolute;
+    width: 150px;
+    height: 1px;
+    left: 0;
+    background: red;
+   border:1px solid black;
+
+    bottom: 18px;
+    transform: scale(0);
+    transition: 1s;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    background: aqua;
+    position: relative;
+    overflow: hidden;
+}
+.higher-box{
+    height: 600px;
+    width: 200px;
+    background: greenyellow;
+    position: absolute;
+    left: 30px;
+}

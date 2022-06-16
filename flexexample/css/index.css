@@ -1,0 +1,68 @@
+body {
+    background: rgba(128, 128, 128, 0.22);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: aqua;
+}
+
+.card {
+
+    width: 30%;
+    background: white;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 10px 5px 10px;
+    position: relative;
+}
+
+.card-header {
+    padding-left: 10%;
+    padding-top: 30px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.22);
+}
+
+.card-header .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.card-header .title-text {
+    line-height: 40px;
+    color: rgba(128, 128, 128, 0.72);
+}
+.card-header .title-text .black-text{
+    color: black;
+}
+
+.card-header .title-text .black-text .or{
+    color: black;
+}
+.card-body{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    text-align: start;
+    letter-spacing: normal;
+    margin-bottom: 80px;
+}
+.card-footer{
+    position: absolute;
+    bottom: 0;
+padding-left: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.card-footer button{
+    background: rgba(0, 218, 54, 0.4);
+    border: unset;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+}

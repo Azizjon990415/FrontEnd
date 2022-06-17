@@ -1,0 +1,108 @@
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cards-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    margin-top: 10px;
+    width: 30%;
+    min-height: 357px;
+
+    /* white */
+
+    background: #FFFFFF;
+    border-radius: 4px;
+
+}
+
+.card-header {
+    position: relative;
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-bottom: 20px;
+    /*font-family: 'SF Pro Display';*/
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #111111;
+    border-bottom: 1px solid rgba(15, 49, 76, 0.21);
+}
+
+.stick {
+    /* Rectangle 5.3 */
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    right: 32px;
+    top: 49px;
+    background: #05DB8E;
+    border-radius: 3px;
+}
+
+.card-body {
+    /*font-family: 'SF Pro Display';*/
+    font-size: 14px;
+    line-height: 17px;
+    /* qora */
+    color: #343434;
+    padding: 12px 32px;
+}
+
+.card-info-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-info {
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* qora */
+    color: #343434;
+    margin-top: 30px;
+}
+
+.card-info span {
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+
+    /* seriy */
+
+    color: #ABABAB;
+}
+
+.card-bottom button {
+    position: relative;
+    width: 140px;
+    height: 40px;
+    /* GREEN */
+    background: #1DD1A1;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* bg blue */
+    color: #F6FCFA;
+    border: unset;
+}
+
+.card-bottom img {
+    width: 22px;
+    position: absolute;
+    top: 7px
+}
+.card-bottom{
+    padding-top: 28px;
+    padding-left: 32px;
+}

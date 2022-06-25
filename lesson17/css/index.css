@@ -1,0 +1,163 @@
+body{
+    background:  #393E46!important;
+}
+.navbar .fullname{
+    font-family: 'SF Pro Display';
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-left: 13px;
+}
+.navbar .info{
+    font-family: 'SF Pro Display';
+    font-size: 10px;
+    line-height: 12px;
+    color: #EEF2F5;
+    margin-left: 13px;
+    margin-top: 3px;
+}
+.navbar #dropdownMenuButton1{
+
+    width: 20px;
+    height: 30px;
+    text-align: center;
+    margin-left: 50px;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.container-fluid .left-side,.container-fluid .right-side{
+    height: 94vh;
+    overflow-y: scroll;
+
+    background: #222730;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    flex: 0 0 auto;
+    width: 30%;
+}
+.container-fluid .center{
+    flex: 0 0 auto;
+    width: 40%;
+}
+.left-side .custom-progress{
+    padding-top: 21px;
+    padding-left: 40px;
+    padding-bottom: 17px;
+    padding-right: 41px;
+}
+.left-side .custom-progress .custom-progress-info{
+    display: flex;
+flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-side .custom-progress .custom-progress-info .progress-info-text{
+    font-family: 'SF Pro Display';
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.left-side .custom-progress .custom-progress-info .progress-info-pracent{
+    font-family: 'SF Pro Display';
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.left-side .custom-progress .progress{
+    margin-top: 6px;
+    width: 100%;
+    height: 6px;
+    background: #393E46;
+}
+.left-side .custom-progress .progress .progress-bar{
+    --bs-bg-opacity: 1;
+    background: linear-gradient(90.01deg, #FB4767 1.29%, #FFF50F 50.64%, #1DD1A1 98.45%)!important;
+}
+.left-side a.text-decoration-none{
+    border-top: 1px solid #70747A;
+    width: 100%;
+    display: block;
+    position: relative;
+    font-family: 'SF Pro Display';
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 40px;
+}
+.left-side a.text-decoration-none .arrow-bottom{
+    position: absolute;
+    top: 22px;
+    right: 41px;
+}
+.collapse .card .text {
+    font-family: 'SF UI Display';
+    font-size: 16px;
+    line-height: 19px;
+    color: #B6B9BD;
+    padding-top: 16px;
+    padding-left: 44px;
+    padding-right: 54px;
+    padding-bottom: 40px;
+}
+.collapse .card{
+    background: #393E46!important;
+}
+.text5{
+    padding-left: 45px;
+    font-size: 15px;
+    color: white;
+}
+.color{
+    color:white;
+    padding-left:45px;
+    padding-top: 10px;
+}
+.right-side{
+    padding-top: 50px!important;
+}
+.rectangle-5{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    width: 500px;
+    height: 50px;
+    background: #207c69;
+    /*opacity: 0.5;*/
+    border-radius: 2px;
+    color: white;
+}
+.rectangle-6{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    width: 500px;
+    height: 50px;
+    background: #8d384c;
+    /*opacity: 0.5;*/
+    border-radius: 2px;
+    color: white;
+}
+.line{
+    display: inline;
+    position: absolute;
+    width: 50px;
+    height: 0;
+    top: 23px;
+    border: 2px solid #1DD1A1;
+    transform: rotate(90deg);
+}
+.danger{
+    border: 2px solid #FB4767;
+ }

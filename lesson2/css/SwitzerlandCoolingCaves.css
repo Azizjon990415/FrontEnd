@@ -1,0 +1,17 @@
+.container{
+    width :80%;
+    margin: 0 auto;
+}
+.Main-text{
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Second-text{
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+}

@@ -10,12 +10,48 @@ h2{
 .my-beautiful-element h2:nth-child(3){
     color: darkgreen;
 }
+.red-p{
+    color: red;
+}
 .green-p{
     color: green;
 }
 .blue-p{
     color: blue;
 }
-div p:nth-child(1){
-    color: red;
+.yellow-p{
+    color: yellow;
+}
+.magenta-p{
+    color: magenta;
+}
+.cyan-p{
+    color: cyan;
+}
+.white-p{
+    color: white;
+}
+.blackBright-p{
+    color: black;
+}
+.redBright-p{
+    color: darkred;
+}
+.greenBright-p{
+    color: lightgreen;
+}
+.yellowBright-p{
+    color: lightyellow;
+}
+.blueBright-p{
+    color: lightblue;
+}
+.magentaBright-p{
+    color: darkmagenta;
+}
+.cyanBright-p{
+    color: lightcyan;
+}
+.whiteBright-p{
+    color: whitesmoke;
 }

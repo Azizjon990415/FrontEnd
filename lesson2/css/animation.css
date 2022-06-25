@@ -1,0 +1,60 @@
+ .ball{
+     position: absolute;
+     height: 100px;
+     width: 100px;
+     border-left-top-radius: 100%;
+     animation-name: walking-ball;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     /* ff 3.6+ */
+     background:-moz-radial-gradient(ellipse at 50% 50%, rgba(251, 255, 0, 1) 0%, rgba(212, 0, 0, 1) 50%, rgba(238, 196, 130, 1) 100%);
+
+     /* safari 5.1+,chrome 10+ */
+     background:-webkit-radial-gradient(ellipse at 50% 50%, rgba(251, 255, 0, 1) 0%, rgba(212, 0, 0, 1) 50%, rgba(238, 196, 130, 1) 100%);
+
+     /* opera 11.10+ */
+     background:-o-radial-gradient(ellipse at 50% 50%, rgba(251, 255, 0, 1) 0%, rgba(212, 0, 0, 1) 50%, rgba(238, 196, 130, 1) 100%);
+
+     /* ie 10+ */
+     background:-ms-radial-gradient(ellipse at 50% 50%, rgba(251, 255, 0, 1) 0%, rgba(212, 0, 0, 1) 50%, rgba(238, 196, 130, 1) 100%);
+
+     /* global 92%+ browsers support */
+     background:radial-gradient(ellipse at 50% 50%, rgba(251, 255, 0, 1) 0%, rgba(212, 0, 0, 1) 50%, rgba(238, 196, 130, 1) 100%);
+ }
+ .square{
+     position: relative;
+     width: 80%;
+     display: table;
+     margin-left: 10%;
+     margin-top: 8%;
+     height: 15vw;
+ }
+
+ @keyframes walking-ball{
+     0% {
+         transform: rotate(8deg);
+         left: 0;
+         top: 0;
+     }
+     25%{
+         left: 93%;
+         top: 0;
+         transform: rotate(3680deg);
+     }
+     50%{
+         left: 93%;
+         top: 85%;
+         transform: rotate(7280deg);
+     }
+     75%{
+         left: 0;
+         top: 85%;
+         transform: rotate(10808deg);
+     }
+     100%{
+         transform: rotate(14408deg);
+         left: 0;
+         top: 0;
+     }
+ }

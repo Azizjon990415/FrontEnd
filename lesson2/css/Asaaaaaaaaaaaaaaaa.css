@@ -1,0 +1,38 @@
+.rectangle{
+    position: relative;
+    width: 500px;
+    height: 100px;
+    background: white;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+}
+.BigTexto{
+    font-size: 5px;
+}
+.minitexto{
+
+}
+.minitexto2{
+
+}
+.minicoulour{
+    position: absolute;
+    height: 20px;
+    width: 100px;
+    background:linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 175, 0, 1) 25%, rgba(231, 255, 0, 1) 50%, rgba(80, 75, 80, 0.57) 70%);
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    right: 100px;
+}
+.minicoulour2{
+    position: absolute;
+    height: 20px;
+    width: 100px;
+    background:linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 175, 0, 1) 25%, rgba(231, 255, 0, 1) 50%, rgba(27, 255, 0, 1) 63%, rgba(80, 75, 80, 0.57) 92%);
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    right: 200px;
+}

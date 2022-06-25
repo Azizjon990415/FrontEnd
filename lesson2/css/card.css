@@ -1,0 +1,48 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.card{
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid black;
+    width: 20%;
+    padding: 10px;
+    display: inline-block;
+}
+.card-body{
+    margin-top: 10px;
+    width: 80%;
+    text-align: justify;
+    margin-left: 32px;
+}
+.card-body .title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card-body .price{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.card-body .secondthing{
+    text-align: center;
+    font-weight: bold;
+}
+.card-body .text{
+    margin-top: 10px;
+}
+.card-footer{
+    padding-top: 20px;
+}
+.card-footer button{
+    width: 100px;
+    height: 40px;
+    background: white;
+    color: lightgreen;
+    cursor: pointer;
+    border-color: lightgreen;
+    border-radius: 5px;
+}

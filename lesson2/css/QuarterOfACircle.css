@@ -1,0 +1,42 @@
+.Piece-1{
+    width: 300px;
+    height: 300px;
+    background: green;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-top-left-radius: 100%;
+}
+.Piece-2{
+    width: 300px;
+    height: 300px;
+    background: red;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-top-right-radius: 100%;
+    margin-left: 310px;
+    margin-top: -310px;
+}
+.Piece-3{
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-top-left-radius: 100%;
+    transform: rotate(180deg);
+    margin-left: 310px;
+}
+.Piece-4{
+    width: 300px;
+    height: 300px;
+    background: blue;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-top-left-radius: 100%;
+    transform: rotate(270deg);
+    margin-top: -310px  ;
+}

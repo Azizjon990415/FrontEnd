@@ -1,0 +1,26 @@
+.square{
+    width: 200px;
+    height: 200px;
+    background: green;
+    margin-top: 350px;
+    margin-left: 700px;
+    position: relative;
+}
+.bottomSquare{
+    width: 100px;
+    height: 50px;
+    background: black;
+    animation-name: animotionas;
+    animation-duration: 2s;
+    animation-iteration-count: revert;
+    animation-timing-function: linear;
+    right: 500px;
+}
+@keyframes animotionas {
+    0%{
+        transform: none;
+    }
+    25%{
+        transform: scale(2);
+    }
+}

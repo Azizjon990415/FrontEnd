@@ -1,0 +1,10 @@
+.rectangle{
+    border-style: solid;
+    width: 400px;
+    height: 400px;
+}
+.rectangle{
+    background: lightblue;
+    width: 600px;
+    height: 400px;
+}

@@ -1,12 +1,6 @@
-let c=5;
-let b=3;
-console.log(c+b)
-console.log(c+b)
-console.log(c+b)
-console.log(c+b)
-if(c>b){
-    console.log("c is bigger")
-}else {
-    console.log("b is bigger")
+function addTwoNumber(){
+    let firstNumber=document.getElementById("firstNumber").value
+    let secondNumber=document.getElementById("secondNumber").value
+    let solution = document.getElementById("solution")
+    solution.innerHTML="Solution:"+(firstNumber+secondNumber)
 }
-let list= [1,3,5,6,8,9]

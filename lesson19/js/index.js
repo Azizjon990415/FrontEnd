@@ -1,6 +1,11 @@
 function addTwoNumber(){
-    let firstNumber=document.getElementById("firstNumber").value
-    let secondNumber=document.getElementById("secondNumber").value
+    let firstNumberInput=document.getElementById("firstNumber")
+    let firstNumber=Number(firstNumberInput.value)
+    let secondNumberInput=document.getElementById("secondNumber")
+    let secondNumber = Number(secondNumberInput.value)
     let solution = document.getElementById("solution")
-    solution.innerHTML="Solution:"+(firstNumber+secondNumber)
+    let answer=(firstNumber+secondNumber)
+    solution.innerHTML="Solution:"+answer
 }
+
+

@@ -7,5 +7,7 @@ function addTwoNumber(){
     let answer=(firstNumber+secondNumber)
     solution.innerHTML="Solution:"+answer
 }
-
+//find 3 variable sum
+//find 3 number biggest
+//find 2^3= 8 4^2=16
 

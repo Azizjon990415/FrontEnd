@@ -1,21 +1,7 @@
-.indeox{
+.circle{
+    height: 200px;
+    width: 200px;
     position: absolute;
-    width: 100px;
-    height: 100px;
     border-radius: 50%;
-    border-color: #000;
-    border-style: solid;
-}
-@keyframes animotionas {
-    0%{
-     top: 0px;
-    }
-    100%{
-        top: 600px;
-    }
-}
-.animation-caler{
-    animation-name: animotionas;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    background: aqua;
 }

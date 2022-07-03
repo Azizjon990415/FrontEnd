@@ -1,0 +1,165 @@
+.rectongle{
+    position: absolute;
+    width: 414px;
+    height: 127px;
+    background: snow;
+}
+.textita{
+    position: absolute;
+    width: 112px;
+    height: 14px;
+    left: 32px;
+    top: 32px;
+    font-size: 12px;
+    line-height: 14px;
+}
+.textita2{
+    position: absolute;
+    width: 43px;
+    height: 29px;
+    left: 66px;
+    top: 48px;
+    font-size: 24px;
+    line-height: 29px;
+}
+.textita3{
+    position: absolute;
+    width: 67px;
+    height: 14px;
+    left: 57px;
+    top: 83px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #05DB8E;
+}
+.textita4{
+    position: absolute;
+    width: 98px;
+    height: 14px;
+    left: 178px;
+    top: 32px;
+    font-size: 12px;
+    line-height: 14px;
+}
+.textita5{
+    position: absolute;
+    width: 32px;
+    height: 29px;
+    left: 209px;
+    top: 50px;
+    font-size: 24px;
+    line-height: 29px;
+}
+.textita6{
+    position: absolute;
+    width: 65px;
+    height: 14px;
+    left: 195px;
+    top: 83px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #05DB8E;
+}
+.textita7{
+    position: absolute;
+    width: 71px;
+    height: 14px;
+    left: 311px;
+    top: 32px;
+    font-size: 12px;
+    line-height: 14px;
+}
+.textita8{
+    position: absolute;
+    width: 15px;
+    height: 29px;
+    left: 340px;
+    top: 50px;
+    font-size: 24px;
+    line-height: 29px;
+}
+.textita9{
+    position: absolute;
+    width: 60px;
+    height: 14px;
+    left: 321px;
+    top: 83px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #E10C33;
+}
+.textita10{
+    position: absolute;
+    width: 62px;
+    height: 29px;
+    left: 32px;
+    top: 225px;
+    font-size: 24px;
+    line-height: 29px;
+}
+.textita11{
+    position: absolute;
+    width: 185px;
+    height: 17px;
+    left: 32px;
+    top: 260px;
+    font-size: 14px;
+    line-height: 17px;
+}
+.textita12{
+    position: absolute;
+    width: 286px;
+    height: 119px;
+    left: 32px;
+    top: 295px;
+    font-size: 14px;
+    line-height: 17px;
+}
+.textita13{
+    position: absolute;
+    width: 111px;
+    height: 19px;
+    left: 46px;
+    top: 460px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F6FCFA;
+}
+.line7{
+    position: absolute;
+    width: 349px;
+    height: 0px;
+    top: 280px;
+    opacity: 0.1;
+    border: 1px solid #0F314C;
+}
+.rectongle2{
+    position: absolute;
+    width: 350px;
+    height: 342px;
+    top: 200px;
+    background: snow;
+    border-radius: 4px;
+}
+.rectongle3{
+    position: absolute;
+    width: 172px;
+    height: 40px;
+    left: 32px;
+    top: 450px;
+    background: #1DD1A1;
+    border-radius: 4px;
+}
+.bunch{
+    position: absolute;
+    margin-left: 400px;
+}
+.bunch2{
+    position: absolute;
+    margin-left: 800px;
+}
+.image{
+    position: absolute;
+    right: 360.38px;
+    bottom: 34.29px;
+}
